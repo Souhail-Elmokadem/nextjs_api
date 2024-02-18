@@ -1,0 +1,71 @@
+.container{
+    width: 80%;
+    min-height: 100vh;
+    display: grid;
+    margin: auto;
+    margin-top: 100px;
+    grid-template-columns: repeat(4,26%);
+}
+.card{
+    max-width: 260px;
+    min-height: 380px;
+    max-height: 380px;
+    border: .5px solid rgb(199, 199, 199);
+    padding: 5px;
+    text-align: center;
+    border-radius: var(--border-button-raduis);
+    margin-bottom: 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.title{
+    font-size:1.4em
+}
+.image{
+    width: 260px;
+    object-fit: cover;
+    object-position: center;
+   border-radius: var(--border-button-raduis);
+}
+.link {
+    text-decoration: none;
+    color: rgb(28, 28, 28);
+}
+.badge{
+    width: 80px;
+    height: auto;
+    background-color: var(--primary);
+    position: absolute;
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+}
+.section{
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+    min-height: 60vh;
+    
+}
+.MainImage{
+    object-fit: cover;
+}
+.product{
+    display: flex;
+    gap: 50px;
+}
+.gallery{
+    text-align: center;
+    margin: 20px;
+    
+}
+.gallery img{
+    margin: 20px;
+    object-fit: cover;
+    
+}
+.thumbnail{
+    width: auto;
+    height: auto;
+}

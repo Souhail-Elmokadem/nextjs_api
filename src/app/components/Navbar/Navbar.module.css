@@ -1,0 +1,30 @@
+
+.menu {
+    margin:10px;
+    text-decoration: none;
+    font-size: 1.3em;
+    
+}
+.ul{
+    float: right;
+    margin-right: 20px;
+}
+.logo{
+    text-decoration: none;
+    font-size: 1.8em;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+.btn {
+    background-color: var(--primary);
+    width: 100px;
+    border-radius: var(--border-button-raduis);
+    height: 28px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 13px;
+    float: right;
+}
